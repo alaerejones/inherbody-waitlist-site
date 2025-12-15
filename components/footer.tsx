@@ -9,8 +9,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex-shrink-0">
-              <div className="w-12 h-12 relative">
-                <Image src="/images/inherbody-20logo3.jpg" alt="InHerBody logo" fill className="object-contain" />
+              <div className="w-24 h-24 relative">
+                <Image src="/images/inherbody logo1.jpg" alt="InHerBody logo" fill className="object-contain" />
               </div>
             </Link>
             <p className="text-sm font-medium text-[#655A9C]">Women's health for women</p>
@@ -31,7 +31,7 @@ export default function Footer() {
             </Link>
           </div>
 
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-3 ">
             <h3 className="text-sm font-semibold text-gray-900 mb-2">Connect With Us</h3>
             <div className="flex gap-4">
               <Link
@@ -66,7 +66,7 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 border-t border-[#F58D8C]/20">
-          <p className="text-sm text-gray-600">
+          <p className="text-sm text-gray-600 text-center">
             © {new Date().getFullYear()} InHerBody Women Health Initiative. All rights reserved.
           </p>
         </div>
