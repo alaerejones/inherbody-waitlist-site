@@ -30,7 +30,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center gap-2 px-0 flex-shrink-0">
-            <div className="w-45 h-20  px-6 py-2 relative">
+            <div className="w-40 h-20 -ml-4 relative">
               <Image src="/images/inherbody logo1.jpg" alt="InHerBody logo" fill className="object-contain" />
             </div>
           </Link>
