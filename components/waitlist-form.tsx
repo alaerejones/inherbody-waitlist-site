@@ -104,7 +104,7 @@ export default function WaitlistForm() {
       <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white rounded-lg p-8 md:p-12 border border-gray-200">
           <h2 className="font-serif text-2xl md:text-3xl font-bold mb-2">Join the InHerBody waitlist</h2>
-          <p className="text-gray-600 mb-8">
+          <p className="text-gray-600 mb-8 text-md">
             Be the first to know when our platform for women's hormonal health goes live.
           </p>
 
