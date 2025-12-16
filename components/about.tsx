@@ -19,14 +19,12 @@ export default function About() {
             <div>
               <h2 className="font-serif text-3xl md:text-4xl font-bold mb-6 text-[#655A9C]">Driven By Community</h2>
               <p className="text-md text-gray-700 leading-relaxed mb-4">
-                InherBody is a women’s health initiative committed to raising awareness, improving understanding, and driving action around women’s reproductive and hormonal health.
-
-Our core focus is to increase awareness of conditions that are widely underreported and misunderstood, including PCOS, endometriosis, fibroids, menstrual health challenges, and broader hormonal concerns. We work to reduce stigma, shift public conversations, and encourage more people to speak, learn, and contribute openly to these topics without shame or silence.
-
-InherBody creates safe, informed spaces for honest discussion through community conversations, research-led education, expert engagements, and shared lived experiences. Beyond awareness, we actively support better outcomes by contributing to preventive approaches, healthcare management solutions, and long-term interventions that improve quality of life for women with these conditions.
+                InHerBody is a women centered health initiative focused on awareness, research, and technology for
+                conditions such as PCOS, endometriosis, and fibroids.
               </p>
               <p className="text-md text-gray-700 leading-relaxed">
-                   We exist to help women understand their bodies more clearly, seek timely care, ask informed questions, and advocate for themselves with confidence. This is a growing community grounded in truth, care, and accountability, because women’s health deserves attention, respect, and real solutions.              </p>
+                We combine education, community, and innovation to help women understand and care for their bodies.
+              </p>
             </div>
 
             

@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex-shrink-0">
-              <div className="w-24 h-24 relative">
+              <div className="w-40 h-20 relative">
                 <Image src="/images/inherbody logo1.jpg" alt="InHerBody logo" fill className="object-contain" />
               </div>
             </Link>
@@ -27,7 +27,7 @@ export default function Footer() {
               Contact Us
             </Link>
             <Link href="/admin/waitlist" className="text-sm text-gray-600 hover:text-[#F58D8C] transition-colors">
-              Admin Login
+             Stay Connected
             </Link>
           </div>
 
