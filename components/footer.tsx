@@ -13,7 +13,6 @@ export default function Footer() {
                 <Image src="/images/logo with tagline.png" alt="InHerBody logo" fill className="object-contain" />
               </div>
             </Link>
-            <p className="text-sm font-medium text-[#655A9C]">Women's health for women</p>
           </div>
 
           <div className="flex flex-col gap-3">
