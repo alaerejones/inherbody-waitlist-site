@@ -27,7 +27,7 @@ export default function Header() {
         isSticky ? "fixed top-0 z-50 bg-white shadow-sm" : "relative bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-0">
+      <div className="max-w-7xl mx-auto px-2">
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center gap-2 flex-shrink-0">
             <div className="w-40 h-20  px-6 py-2 relative">
