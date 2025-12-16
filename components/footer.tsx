@@ -67,7 +67,10 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-[#F58D8C]/20">
           <p className="text-sm text-gray-600 text-center">
-            © {new Date().getFullYear()} InHerBody Women Health Initiative. All rights reserved.
+            © {new Date().getFullYear()} InHerBody Women Health Initiative.
+          </p>
+          <p className="text-sm text-gray-600 text-center">
+            All rights reserved.
           </p>
         </div>
       </div>
