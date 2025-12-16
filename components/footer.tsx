@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="flex flex-col gap-2">
             <Link href="/" className="flex-shrink-0">
               <div className="w-45 h-20 -ml-3 relative">
-                <Image src="/images/inherbody logo1.jpg" alt="InHerBody logo" fill className="object-contain" />
+                <Image src="/images/logo with tagline.png" alt="InHerBody logo" fill className="object-contain" />
               </div>
             </Link>
             <p className="text-sm font-medium text-[#655A9C]">Women's health for women</p>
