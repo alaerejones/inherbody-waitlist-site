@@ -27,9 +27,9 @@ export default function Header() {
         isSticky ? "fixed top-0 z-50 bg-white shadow-sm" : "relative bg-transparent"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <Link href="/" className="flex items-center gap-2 flex-shrink-0">
+          <Link href="/" className="flex items-center gap-2 px-0 flex-shrink-0">
             <div className="w-45 h-20  px-6 py-2 relative">
               <Image src="/images/inherbody logo1.jpg" alt="InHerBody logo" fill className="object-contain" />
             </div>
