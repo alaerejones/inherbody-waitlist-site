@@ -17,12 +17,12 @@ export default function About() {
             </div>
 
             <div>
-              <h2 className="font-serif text-3xl md:text-4xl font-bold mb-6 text-[#655A9C]">Driven By Community</h2>
-              <p className="text-md text-gray-700 leading-relaxed mb-4">
+              <h2 className="font-serif text-3xl md:text-4xl font-bold mb-6 text-[#655A9C] text-center">Driven By Community</h2>
+              <p className="text-md text-gray-700 leading-relaxed mb-4 text-justify">
                 InHerBody is a women centered health initiative focused on awareness, research, and technology for
                 conditions such as PCOS, endometriosis, and fibroids.
               </p>
-              <p className="text-md text-gray-700 leading-relaxed">
+              <p className="text-md text-gray-700 leading-relaxed text-justify">
                 We combine education, community, and innovation to help women understand and care for their bodies.
               </p>
             </div>
