@@ -5,9 +5,9 @@ import { Instagram, Facebook, Linkedin } from "lucide-react"
 export default function Footer() {
   return (
     <footer className="bg-[#FDF8F3] border-t border-[#F58D8C]/20">
-      <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-6 py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 w-40 h-20 -ml-4 relative">
             <Link href="/" className="flex-shrink-0">
               <div className="w-45 h-20 relative">
                 <Image src="/images/inherbody logo1.jpg" alt="InHerBody logo" fill className="object-contain" />
