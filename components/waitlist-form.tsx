@@ -103,8 +103,8 @@ export default function WaitlistForm() {
     <section id="waitlist-form" className="py-16 md:py-24 bg-[#F6F5F1]">
       <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-white rounded-lg p-8 md:p-12 border border-gray-200">
-          <h2 className="font-serif text-3xl md:text-4xl font-bold mb-6">Join the InHerBody waitlist</h2>
-          <p className="text-gray-600 mb-8 text-md">
+          <h2 className="font-serif text-3xl md:text-4xl font-bold mb-6 text-center">Join the InHerBody waitlist</h2>
+          <p className="text-gray-600 mb-8 text-md text-justify">
             Be the first to know when Inherbody community is to launch.
           </p>
 
