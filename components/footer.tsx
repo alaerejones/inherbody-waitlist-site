@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <div className="flex flex-col gap-2">
             <Link href="/" className="flex-shrink-0">
-              <div className="w-45 h-20 -ml-1 relative">
+              <div className="w-45 h-20 -ml-2 relative">
                 <Image src="/images/logo with tagline.png" alt="InHerBody logo" fill className="object-contain" />
               </div>
             </Link>
