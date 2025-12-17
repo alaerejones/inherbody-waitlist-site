@@ -3,20 +3,20 @@ import { Microscope, Users, Wrench } from "lucide-react"
 export default function ValueProps() {
   const props = [
     {
-      title: "Evidence-Based Care",
-      description: "Science based insight",
-      detail: "Access research-backed information and medical insights tailored for women's health conditions.",
+      title: "Shared Knowledge",
+      description: "Learning together, not alone",
+      detail: "InHerBody is that community where women come together to learn, question, and understand reproductive and hormonal health conditions that are often misunderstood. Knowledge here is shared, discussed, and grounded in shared experiences and evidence, not handed down or gatekept.",
       icon: Microscope,
     },
     {
       title: "Community Support",
-      description: "Supportive community",
-      detail: "Connect with women who understand your journey and share experiences in a safe, empowering space.",
+      description: "No silence, no dismissal",
+      detail: "This is a community built on shared experiences. Women connect, listen, and speak openly about PCOS, endometriosis, fibroids, menstrual health, and related concerns without being minimized or talked over. Support here means being seen, heard, and taken seriously.",
       icon: Users,
     },
     {
-      title: "Made For You",
-      description: "Tools built for women",
+      title: "Community-Led Action",
+      description: "Beyond internal conversation",
       detail: "Use technology designed specifically to track, manage, and understand your unique health needs.",
       icon: Wrench,
     },
