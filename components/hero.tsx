@@ -21,12 +21,16 @@ export default function Hero() {
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         
 
-        <h1 className="font-serif text-4xl md:text-5xl font-bold text-white mb-4 text-balance">
+        <h1 className="font-serif text-4xl md:text-6xl font-bold text-white mb-4 text-balance">
           InHerBody Community
         </h1>
 
         <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto text-balance">
-          For women living with PCOS, endometriosis, fibroids, and cycles that do not feel normal.
+          For women living with PCOS, endometriosis and other hormonal conditions.
+          </p>
+
+          <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto text-balance">
+          Created to increase awareness, reduce stigma, and support informed conversations around women's health.
         </p>
 
         <button
