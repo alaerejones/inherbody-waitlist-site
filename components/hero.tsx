@@ -28,7 +28,6 @@ export default function Hero() {
         <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto text-balance">
           For women living with PCOS, endometriosis and other hormonal conditions.
           </p>
-
           <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto text-balance">
           Created to increase awareness, reduce stigma, and support informed conversations around women's health.
         </p>
