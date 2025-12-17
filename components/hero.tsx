@@ -21,7 +21,7 @@ export default function Hero() {
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         
 
-        <h1 className="font-serif text-3xl md:text-5xl font-bold text-white mb-4 text-balance">
+        <h1 className="font-serif text-4xl md:text-5xl font-bold text-white mb-4 text-balance">
           InHerBody Community
         </h1>
 
