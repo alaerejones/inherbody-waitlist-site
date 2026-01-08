@@ -17,7 +17,7 @@ export default function ValueProps() {
     {
       title: "Community-Led Action",
       description: " To contribute collectively to awareness, discussion, and solutions",
-      detail: "There is a broader gap in meaningful discussion, contribution, and action around women’s hormonal health. As the community grows, shared voices, skills, experiences, and perspectives are brought together to strengthen conversations, and contribute to discussions, research, activities, and solution-oriented thinking and implementations around hormonal health. This includes contributing to prevention, management, and long-term approaches through community-led efforts, rather than relying on individual responsibility or isolated action.",
+      detail: "There is a broader gap in meaningful contributions and actions around women’s hormonal health. As the community grows, shared voices, skills, experiences, and perspectives are brought together to strengthen conversations, and contribute to discussions, research, activities, and solution-oriented thinking and implementations around hormonal health. This includes contributing to prevention, management, and long-term approaches through community-led efforts, rather than relying on individual responsibility or isolated action.",
       icon: Wrench,
     },
   ]
