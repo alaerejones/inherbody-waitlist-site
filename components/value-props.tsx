@@ -5,19 +5,19 @@ export default function ValueProps() {
     {
       title: "Shared Knowledge",
       description: "Learning together, not alone",
-      detail: "InHerBody is that community where women come together to learn, question, and understand reproductive and hormonal health conditions that are often misunderstood. Knowledge here is shared, discussed, and grounded in shared experiences and evidence, not handed down or gatekept.",
+      detail: "InHerBody is a space where women share experiences, ask questions, and learn from one another about hormonal health. Understanding here grows through conversation and shared support, especially in areas that are often misunderstood, misinformed or ignored.",
       icon: Microscope,
     },
     {
       title: "Community Support",
       description: "No silence, no dismissal",
-      detail: "This is a community built on shared experiences. Women connect, listen, and speak openly about PCOS, endometriosis, fibroids, menstrual health, and related concerns without being minimized or talked over. Support here means being seen, heard, and taken seriously.",
+      detail: "This community is built on shared support. Women connect, listen, and speak openly about hormonal disorders like PCOS, endometriosis, fibroids, and menstrual health without being minimized or dismissed.",
       icon: Users,
     },
     {
       title: "Community-Led Action",
       description: "Beyond internal conversation",
-      detail: "Use technology designed specifically to track, manage, and understand your unique health needs.",
+      detail: "InHerBody’s primary goal is collective contribution to addressing gaps in women’s hormonal health. Together, the community works to improve awareness, reduce stigma and misinformation, and strengthen conversations around hormonal health through shared voices and community led activities.",
       icon: Wrench,
     },
   ]
