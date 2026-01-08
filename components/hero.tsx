@@ -26,7 +26,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-lg md:text-xl text-white/90 mb-8 max-w-2xl mx-auto text-balance">
-          A community for women living with hormonal disorders like PCOS and endometriosis, and women who support them.
+          A community for women living with hormonal disorders like PCOS and endometriosis, and women willing to support them.
         </p>
 
         <button
