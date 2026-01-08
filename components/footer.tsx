@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Instagram, Facebook, Linkedin } from "lucide-react"
+import { Instagram, Facebook, Linkedin, Twitter } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -42,6 +42,15 @@ export default function Footer() {
               >
                 <Instagram className="w-5 h-5" />
               </Link>
+              <Link
+              href="https://x.com/weare_inherbody"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-[#F58D8C] transition-colors"
+              aria-label="X (Twitter)"
+            >
+              <Twitter className="w-5 h-5" />
+            </Link>
               <Link
                 href="https://www.facebook.com/share/1ALPBymsRA/"
                 target="_blank"
