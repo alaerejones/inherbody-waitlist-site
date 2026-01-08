@@ -4,20 +4,20 @@ export default function ValueProps() {
   const props = [
     {
       title: "Shared Knowledge",
-      description: "Learning together, not alone",
-      detail: "InHerBody is a space where women share experiences, ask questions, and learn from one another about hormonal health. Understanding here grows through conversation and shared support, especially in areas that are often misunderstood, misinformed or ignored.",
+      description: "Goal: Improve awareness and reduce misinformation around hormonal disorders",
+      detail: "Low awareness and widespread misinformation around hormonal disorders such as PCOS and endometriosis mean many women do not understand what these conditions are, how they affect the body, or how they show up beyond fertility. The goal of InHerBody in this area is to improve awareness and reduce misinformation by creating a space where women can learn through shared conversations, questions, and experiences. As a community, knowledge is built collectively, using lived experience and open discussion to clarify what is often misunderstood, oversimplified, or ignored in mainstream conversations about women’s hormonal health.",
       icon: Microscope,
     },
     {
       title: "Community Support",
-      description: "No silence, no dismissal",
-      detail: "This community is built on shared support. Women connect, listen, and speak openly about hormonal disorders like PCOS, endometriosis, fibroids, and menstrual health without being minimized or dismissed.",
+      description: "Goal: Reduce stigma and silence around women’s health",
+      detail: "Low awareness and widespread misinformation around hormonal disorders such as PCOS and endometriosis mean many women do not understand what these conditions are, how they affect the body, or how they show up beyond fertility. The goal of InHerBody in this area is to improve awareness and reduce misinformation by creating a space where women can learn through shared conversations, questions, and experiences. As a community, knowledge is built collectively, using lived experience and open discussion to clarify what is often misunderstood, oversimplified, or ignored in mainstream conversations about women’s hormonal health.",
       icon: Users,
     },
     {
       title: "Community-Led Action",
-      description: "Beyond internal conversation",
-      detail: "InHerBody’s primary goal is collective contribution to addressing gaps in women’s hormonal health. Together, the community works to improve awareness, reduce stigma and misinformation, and strengthen conversations around hormonal health through shared voices and community led activities.",
+      description: "Goal: Contribute collectively to awareness, discussion, and solutions",
+      detail: "Beyond awareness and internal support, there is a broader gap in meaningful discussion, contribution, and action around women’s hormonal health. The goal of InHerBody in this area is collective contribution. As the community grows, shared voices, skills, experiences, and perspectives are brought together to strengthen conversations, support awareness efforts, and contribute to discussions, research, activities, and solution-oriented thinking around hormonal health. This includes contributing to prevention, management, and long-term approaches through community-led efforts, rather than relying on individual responsibility or isolated action.",
       icon: Wrench,
     },
   ]
