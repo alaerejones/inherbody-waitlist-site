@@ -19,9 +19,10 @@ export default function About() {
             <div>
               <h2 className="font-serif text-3xl md:text-4xl font-bold mb-6 text-[#655A9C] text-center">Driven By Community</h2>
               <p className="text-md text-gray-700 leading-relaxed mb-4 text-justify">
-                InHerBody is a shared support community where women make sense of hormonal health together, beyond fertility.
+                InHerBody is a shared support community where women make sense of hormonal health together.
 
-We’re using a waitlist to grow the community intentionally and onboard members in phases, so the space feels supportive, active, and welcoming when people join.
+The focus is on hormonal disorders like PCOS and endometriosis, and how they affect women’s lives beyond fertility.
+InHerBody is not a medical service or clinic. It’s a space for shared support and conversations.
               </p>
               <p className="text-md text-gray-700 leading-relaxed text-justify">
                 Joining the waitlist means you’ll be contacted personally and invited into the community when onboarding opens.
