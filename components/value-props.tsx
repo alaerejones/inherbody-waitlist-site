@@ -5,19 +5,19 @@ export default function ValueProps() {
     {
       title: "Shared Knowledge",
       description: "To improve awareness and reduce misinformation around hormonal disorders",
-      detail: "Low awareness and widespread misinformation around hormonal disorder conditions mean many women do not understand what these conditions are, how they affect the body, or how they show up beyond fertility. The goal of the community in this area is to improve awareness and reduce misinformation by creating a space where women can learn through shared conversations, questions, and experiences.",
+      detail: "Low awareness and widespread misinformation around hormonal disorder conditions mean many women do not understand what these conditions are, how they affect the body, or how they show up beyond fertility. As a community, knowledge is built collectively, using lived experience and open discussion to clarify what is often misunderstood, oversimplified, or ignored in mainstream conversations about women’s hormonal health.",
       icon: Microscope,
     },
     {
       title: "Community Support",
       description: "To reduce the stigma and silence around women’s health",
-      detail: "Stigma around women’s health often leads to dismissal, silence, and isolation, making many women feel unheard or discouraged from speaking about their experiences. The goal of the community in this area is to reduce stigma by creating a shared support environment where women can speak openly about hormonal disorders, menstrual health, pain, and related experiences without being minimized or talked over. As a community, support means listening, validating experiences, and creating a culture where women’s health concerns are taken seriously rather than dismissed as normal or exaggerated.",
+      detail: "Stigma around women’s health often leads to dismissal, silence, and isolation, making many women feel unheard or discouraged from speaking about their experiences. As a community, support means listening, validating experiences, and creating a culture where women’s health concerns are taken seriously rather than dismissed as normal or exaggerated.",
       icon: Users,
     },
     {
       title: "Community-Led Action",
       description: " To contribute collectively to awareness, discussion, and solutions",
-      detail: "Beyond awareness and internal support, there is a broader gap in meaningful discussion, contribution, and action around women’s hormonal health. The goal of InHerBody in this area is collective contribution. As the community grows, shared voices, skills, experiences, and perspectives are brought together to strengthen conversations, support awareness efforts, and contribute to discussions, research, activities, and solution-oriented thinking around hormonal health. This includes contributing to prevention, management, and long-term approaches through community-led efforts, rather than relying on individual responsibility or isolated action.",
+      detail: "Beyond awareness and internal support, there is a broader gap in meaningful discussion, contribution, and action around women’s hormonal health. As the community grows, shared voices, skills, experiences, and perspectives are brought together to strengthen conversations, support awareness efforts, and contribute to discussions, research, activities, and solution-oriented thinking around hormonal health. This includes contributing to prevention, management, and long-term approaches through community-led efforts, rather than relying on individual responsibility or isolated action.",
       icon: Wrench,
     },
   ]
