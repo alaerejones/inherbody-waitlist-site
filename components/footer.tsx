@@ -25,7 +25,7 @@ export default function Footer() {
             >
               Contact Us
             </Link>
-            <Link href="/admin/waitlist" className="text-sm text-gray-600 hover:text-[#F58D8C] transition-colors">
+            <Link href="https://linktr.ee/InHerBodyCommunity" className="text-sm text-gray-600 hover:text-[#F58D8C] transition-colors">
              Stay Connected
             </Link>
           </div>
@@ -52,7 +52,7 @@ export default function Footer() {
               <Twitter className="w-5 h-5" />
             </Link>
               <Link
-                href="https://www.facebook.com/share/1ALPBymsRA/"
+                href="https://www.facebook.com/share/16oakhTo6Z/?"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-[#F58D8C] transition-colors"
