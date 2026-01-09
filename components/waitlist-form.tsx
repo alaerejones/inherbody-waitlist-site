@@ -8,7 +8,7 @@ interface FormData {
   firstName: string
   email: string
   whatsapp: string
-  condition: string
+  condition: string[]
   source: string
   consentGiven: boolean
 }
@@ -27,7 +27,7 @@ export default function WaitlistForm() {
       firstName: "",
       email: "",
       whatsapp: "",
-      condition: "",
+      condition: [],
       source: "",
       consentGiven: false,
     },
