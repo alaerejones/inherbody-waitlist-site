@@ -18,7 +18,7 @@ export default function Footer() {
           <div className="flex flex-col gap-3">
             <h3 className="text-sm font-semibold text-gray-900 mb-2">Quick Links</h3>
             <Link
-              href="https://wa.link/yq83o3"
+              href="mailto:inherbodycommunity@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-gray-600 hover:text-[#F58D8C] transition-colors"
