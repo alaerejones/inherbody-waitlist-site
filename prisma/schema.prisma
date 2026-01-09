@@ -13,7 +13,7 @@ model WaitlistSubscriber {
   firstName    String
   email        String   @unique
   whatsapp     String
-  condition    String
+  condition    String   // comma-separated values
   source       String?
   consentGiven Boolean
 
