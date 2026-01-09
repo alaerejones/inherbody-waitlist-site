@@ -48,6 +48,16 @@ export default function WaitlistForm() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
+    const isValidWhatsApp = /^\+\d{8,15}$/
+
+    if (!isValidWhatsApp.test(formState.data.whatsapp)) {
+      setFormState((prev) => ({
+        ...prev,
+        status: "error",
+        message: "Please enter a valid WhatsApp number with country code (e.g. +2348012345678).",
+      }))
+      return
+    }
 
     setFormState((prev) => ({
       ...prev,
