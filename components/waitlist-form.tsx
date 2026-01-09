@@ -175,10 +175,6 @@ export default function WaitlistForm() {
             </div>
 
             <div>
-              <label htmlFor="condition" className="block text-sm font-medium text-gray-900 mb-2">
-                What are you currently dealing with? *
-              </label>
-              <div>
               <label className="block text-sm font-medium text-gray-900 mb-2">
                 What applies to you? (Select all that apply) *
               </label>
@@ -219,7 +215,7 @@ export default function WaitlistForm() {
                 </label>
               ))}
             </div>
-            </div>
+        
 
             <div>
               <label htmlFor="source" className="block text-sm font-medium text-gray-900 mb-2">
