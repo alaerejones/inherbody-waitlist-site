@@ -8,12 +8,13 @@ datasource db {
 }
 
 model WaitlistSubscriber {
-  id        String   @id @default(cuid())
-  createdAt DateTime @default(now())
-  firstName String
-  email     String   @unique
-  condition String
-  source    String?
+  id           String   @id @default(cuid())
+  createdAt    DateTime @default(now())
+  firstName    String
+  email        String   @unique
+  whatsapp     String
+  condition    String
+  source       String?
   consentGiven Boolean
 
   @@index([createdAt])
