@@ -103,7 +103,7 @@ export default function WaitlistForm() {
           <div className="bg-white rounded-lg p-8 md:p-12 border border-gray-200">
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-center mb-4">You are on the list.</h2>
             <p className="text-center text-gray-600">
-              Thank you for trusting InHerBody. We will send updates as we get closer to launch.
+              Thank you for trusting InHerBody. We will send you updates soon.
             </p>
           </div>
         </div>
@@ -166,7 +166,7 @@ export default function WaitlistForm() {
                 value={formState.data.whatsapp}
                 onChange={handleInputChange}
                 required
-                placeholder="+2348012345678"
+                placeholder="+234......"
                 className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#655A9C]"
               />
               <p className="mt-1 text-xs text-gray-500">
@@ -178,21 +178,47 @@ export default function WaitlistForm() {
               <label htmlFor="condition" className="block text-sm font-medium text-gray-900 mb-2">
                 What are you currently dealing with? *
               </label>
-              <select
-                id="condition"
-                name="condition"
-                value={formState.data.condition}
-                onChange={handleInputChange}
-                required
-                className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#655A9C]"
-              >
-                <option value="">Select an option</option>
-                <option value="PCOS">PCOS</option>
-                <option value="Endometriosis">Endometriosis</option>
-                <option value="Fibroids">Fibroids</option>
-                <option value="Irregular cycles / not sure yet">Irregular cycles / not sure yet</option>
-                <option value="I am here to support someone">I am here to support someone</option>
-              </select>
+              <div>
+              <label className="block text-sm font-medium text-gray-900 mb-2">
+                What applies to you? (Select all that apply) *
+              </label>
+
+              {[
+                "PCOS",
+                "Endometriosis",
+                "Fibroids",
+                "Irregular cycles / not sure yet",
+                "I am here to support someone",
+                "I want to learn and contribute",
+              ].map((item) => (
+                <label key={item} className="flex items-center gap-2 mb-2">
+                  <input
+                    type="checkbox"
+                    name="condition"
+                    value={item}
+                    onChange={(e) => {
+                      const value = e.target.value
+                      setFormState((prev) => {
+                        const current = Array.isArray(prev.data.condition)
+                          ? prev.data.condition
+                          : []
+
+                        return {
+                          ...prev,
+                          data: {
+                            ...prev.data,
+                            condition: e.target.checked
+                              ? [...current, value]
+                              : current.filter((v) => v !== value),
+                          },
+                        }
+                      })
+                    }}
+                  />
+                  <span className="text-sm text-gray-700">{item}</span>
+                </label>
+              ))}
+            </div>
             </div>
 
             <div>
