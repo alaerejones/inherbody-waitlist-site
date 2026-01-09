@@ -7,6 +7,7 @@ import { useState } from "react"
 interface FormData {
   firstName: string
   email: string
+  whatsapp: string
   condition: string
   source: string
   consentGiven: boolean
@@ -25,6 +26,7 @@ export default function WaitlistForm() {
     data: {
       firstName: "",
       email: "",
+      whatsapp: "",
       condition: "",
       source: "",
       consentGiven: false,
@@ -141,6 +143,25 @@ export default function WaitlistForm() {
                 required
                 className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#655A9C]"
               />
+            </div>
+
+            <div>
+              <label htmlFor="whatsapp" className="block text-sm font-medium text-gray-900 mb-2">
+                WhatsApp number *
+              </label>
+              <input
+                type="tel"
+                id="whatsapp"
+                name="whatsapp"
+                value={formState.data.whatsapp}
+                onChange={handleInputChange}
+                required
+                placeholder="+2348012345678"
+                className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[#655A9C]"
+              />
+              <p className="mt-1 text-xs text-gray-500">
+                Please include your country code.
+              </p>
             </div>
 
             <div>
