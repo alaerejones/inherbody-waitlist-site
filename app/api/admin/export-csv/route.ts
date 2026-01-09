@@ -23,16 +23,25 @@ export async function GET(request: Request) {
 
   try {
     const subscribers = await sql`
-      SELECT "firstName", email, condition, source, "createdAt" 
-      FROM "WaitlistSubscriber" 
+      SELECT "firstName", email, whatsapp, condition, source, "createdAt"
+      FROM "WaitlistSubscriber"
       ORDER BY "createdAt" DESC;
     `
 
     // Build CSV
-    const headers = ["First Name", "Email", "Condition", "Source", "Date Joined"]
+    const headers = [
+      "First Name",
+      "Email",
+      "WhatsApp",
+      "Condition",
+      "Source",
+      "Date Joined",
+    ]
+
     const rows = subscribers.map((sub: any) => [
       escapeCSV(sub.firstName),
       escapeCSV(sub.email),
+      escapeCSV(sub.whatsapp),
       escapeCSV(sub.condition),
       escapeCSV(sub.source),
       escapeCSV(new Date(sub.createdAt).toISOString().split("T")[0]),

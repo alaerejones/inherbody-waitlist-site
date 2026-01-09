@@ -14,8 +14,14 @@ export async function GET(request: Request) {
 
   try {
     const subscribers = await sql`
-      SELECT id, "firstName", email, condition, "createdAt" 
-      FROM "WaitlistSubscriber" 
+      SELECT
+        id,
+        "firstName",
+        email,
+        whatsapp,
+        condition,
+        "createdAt"
+      FROM "WaitlistSubscriber"
       ORDER BY "createdAt" DESC;
     `
 

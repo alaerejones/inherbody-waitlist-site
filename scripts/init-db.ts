@@ -12,6 +12,7 @@ async function main() {
       "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
       "firstName" TEXT NOT NULL,
       "email" TEXT NOT NULL UNIQUE,
+      "whatsapp" TEXT NOT NULL,
       "condition" TEXT NOT NULL,
       "source" TEXT,
       "consentGiven" BOOLEAN NOT NULL
@@ -20,7 +21,8 @@ async function main() {
 
   // Create index on createdAt
   await sql`
-    CREATE INDEX IF NOT EXISTS "WaitlistSubscriber_createdAt_idx" ON "WaitlistSubscriber"("createdAt");
+    CREATE INDEX IF NOT EXISTS "WaitlistSubscriber_createdAt_idx"
+    ON "WaitlistSubscriber"("createdAt");
   `
 
   console.log("✓ Database initialized successfully")
