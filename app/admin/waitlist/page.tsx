@@ -9,6 +9,7 @@ interface Subscriber {
   id: string
   firstName: string
   email: string
+  whatsapp: string
   condition: string
   createdAt: string
 }
@@ -142,6 +143,7 @@ export default function AdminWaitlist() {
                 <tr>
                   <th className="px-6 py-3 text-left text-sm font-medium text-gray-900">Name</th>
                   <th className="px-6 py-3 text-left text-sm font-medium text-gray-900">Email</th>
+                  <th className="px-6 py-3 text-left text-sm font-medium text-gray-900">WhatsApp</th>
                   <th className="px-6 py-3 text-left text-sm font-medium text-gray-900">Condition</th>
                   <th className="px-6 py-3 text-left text-sm font-medium text-gray-900">Date Joined</th>
                 </tr>
@@ -150,9 +152,25 @@ export default function AdminWaitlist() {
                 {subscribers.map((sub) => (
                   <tr key={sub.id}>
                     <td className="px-6 py-4 text-sm text-gray-900">{sub.firstName}</td>
+
                     <td className="px-6 py-4 text-sm text-gray-600">{sub.email}</td>
+
+                    <td className="px-6 py-4 text-sm">
+                      <a
+                        href={`https://wa.me/${sub.whatsapp.replace(/\+/g, "")}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-[#25D366] hover:underline font-medium"
+                      >
+                        {sub.whatsapp}
+                      </a>
+                    </td>
+
                     <td className="px-6 py-4 text-sm text-gray-600">{sub.condition}</td>
-                    <td className="px-6 py-4 text-sm text-gray-600">{new Date(sub.createdAt).toLocaleDateString()}</td>
+
+                    <td className="px-6 py-4 text-sm text-gray-600">
+                      {new Date(sub.createdAt).toLocaleDateString()}
+                    </td>
                   </tr>
                 ))}
               </tbody>
