@@ -24,8 +24,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "InHerBody - Women's Health for Women",
   description:
-    "Join the InHerBody waitlist. Women-centered health initiative for PCOS, endometriosis, fibroids, and hormonal health.",
-  generator: "v0.app",
+    "Join the InHerBody waitlist. Women-centered health initiative for PCOS, endometriosis, and hormonal health.",
   icons: {
     icon: [
       {
